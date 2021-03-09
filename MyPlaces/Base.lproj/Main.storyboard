@@ -241,6 +241,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="xzk-LH-WGO"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageOfPlace" destination="hk3-iF-86W" id="lsK-ez-ouD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ANy-lF-kWn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="vXh-ZW-Q1l" userLabel="Exit" sceneMemberID="exit"/>
@@ -256,7 +259,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                            <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="28"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
